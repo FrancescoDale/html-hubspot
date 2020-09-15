@@ -161,7 +161,6 @@ header .gethubspot{
     border-bottom: 4px solid black;
 }
 
-
 .section1text {
     width: 35%;
     padding-top: 20px;
@@ -194,3 +193,34 @@ header .gethubspot{
 }
 
 /* fine sezione con immagine di sfondo */
+
+/* sezione 2 */
+
+.mainbox {
+    margin-top: 60px;
+    height: 700px;
+    background-color: lightblue;
+}
+
+.textbox {
+    margin 20px;
+    height: 200px;
+    text-align: left;
+    width: calc(33% - 20px);
+    float: left;
+    position: relative;
+    background-color: red;
+}
+
+.mainbox::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.genericbox {
+    margin: 20px;
+    float: left;
+    height: 200px;
+    width: calc(100% / 6 -40px);
+    background-color: red;
+}
