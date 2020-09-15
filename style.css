@@ -26,7 +26,7 @@ header {
  }
 
  .headerfirstrow  {
-    background: lightgrey;
+    background: #33475b;
     padding:20px;
     border-bottom: 1px solid lightgrey;
     position: fixed;
@@ -151,4 +151,12 @@ header .gethubspot{
     height: 1000px;
     margin: auto;
     background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+}
+
+.section1 .gethubspot{
+    padding: 10px 20px;
+}
+
+.gethubspot:hover{
+    background: #ffbcac;
 }
