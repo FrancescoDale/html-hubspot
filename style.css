@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    padding-top:80px;
+}
+ /* prima riga bloccata header con tasti di login e ricerca*/
+
+ /* contenitore di parte destra e sinistra della prima riga bloccata .
+ usato lo stesso per la seconda riga*/
+
+ .wrapper1{
+     width: 80%;
+     margin:auto;
+ }
+
+ .wrapper1 {
+     content: '';
+     display: table;
+     clear: both;
+ }
+
+ .headerfirstrow  {
+    background: lightgrey;
+    padding:20px;
+    border-bottom: 1px solid lightgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+}
+
+
+.hfrleft{
+    float:left;
+}
+
+.hfrright{
+    float:right;
+}
+
+.hfrleft, .hfrright {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.frtext {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* pulsanti */
+
+.loginbutton {
+    color: #ff7a59;
+    background: white;
+    border: 1px solid orange;
+    border-radius:5px;
+    padding: 10px 20px;
+}
+
+.gethubspot{
+    display: inline-block;
+    color: white;
+    background: orange;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+header .gethubspot{
+    padding: 10px 20px;
+}
+
+/* effetto copiato da ispeziona pagina */
+
+.gethubspot:hover{
+    background: #ffbcac;
+}
+
+.loginbutton:hover{
+    background-color: #ffbcac;
+}
+
+/* barra con logo e menu */
+
+.headersecondrow {
+    padding:20px;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+}
+ /* logo */
+
+.hsrleft {
+    float: left;
+}
+
+.logo img{
+    padding: 40px 0;
+    width: 150px;
+}
+
+/* menu destro */
+
+.hsrright {
+    float: right;
+    padding-top: 50px;
+}
+
+.hsrright a {
+    color: black;
+    font-size: bold;
+    text-decoration: none;
+    padding: 25px;
+
+}
+
+/* sezione informativa sul canale youtube */
+
+.joinus {
+    height: 100px;
+    background-color: #33475b;
+    padding: 20px 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: left;
+}
+
+.joinus a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.joinus, .joinus a {
+    color: white;
+    font-size: 25px;
+}
+
+/* finesezione informativa */
