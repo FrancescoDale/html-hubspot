@@ -144,3 +144,11 @@ header .gethubspot{
 }
 
 /* finesezione informativa */
+
+/* sezione con immagine di sfondo */
+
+.section1 {
+    height: 1000px;
+    margin: auto;
+    background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+}
