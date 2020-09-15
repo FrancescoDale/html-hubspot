@@ -159,7 +159,9 @@ header .gethubspot{
     height: 1000px;
     background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
     background-repeat: no-repeat;
+    border-bottom: 4px solid black;
 }
+
 
 .section1text {
     width: 35%;
@@ -172,7 +174,7 @@ header .gethubspot{
 }
 .section1 .gethubspot{
     padding: 40px 40px;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .gethubspot:hover{
