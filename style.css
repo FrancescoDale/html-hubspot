@@ -6,24 +6,27 @@
     border: 0;
 }
 
-header {
-    padding-top:80px;
+/* contenitore di parte destra e sinistra della prima riga bloccata .
+usato lo stesso per la seconda riga*/
+
+.wrapper1{
+    width: 80%;
+    margin:auto;
 }
+
+.wrapper1 {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* fine contenitore */
+
  /* prima riga bloccata header con tasti di login e ricerca*/
-
- /* contenitore di parte destra e sinistra della prima riga bloccata .
- usato lo stesso per la seconda riga*/
-
- .wrapper1{
-     width: 80%;
-     margin:auto;
+ header {
+     padding-top:80px;
  }
 
- .wrapper1 {
-     content: '';
-     display: table;
-     clear: both;
- }
 
  .headerfirstrow  {
     background: #33475b;
@@ -147,16 +150,40 @@ header .gethubspot{
 
 /* sezione con immagine di sfondo */
 
-.section1 {
-    height: 1000px;
+.wrapper2 {
+    width: 80%;
     margin: auto;
-    background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
 }
 
+.section1 {
+    height: 1000px;
+    background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+    background-repeat: no-repeat;
+}
+
+.section1text {
+
+
+}
+
+
+
+.section1text p {
+    padding: 20px 20px;
+}
 .section1 .gethubspot{
-    padding: 10px 20px;
+    padding: 40px 40px;
 }
 
 .gethubspot:hover{
     background: #ffbcac;
+}
+
+.section1text h1 {
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.ubtext span {
+    text-transform: uppercase;
 }
